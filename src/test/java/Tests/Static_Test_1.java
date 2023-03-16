@@ -38,10 +38,10 @@ public class Static_Test_1 {
 
         // Find the div element with class "logo-nav"
         WebElement volume = driver.findElement(By.xpath("(//h3[@class=\"main-statistic-title\"])[1]"));
-        volume.getDomAttribute("innerText");
+
         String value = volume.getAttribute("innerText");
         System.out.println("getAttribute: " + value);
-        driver.quit();
+//        driver.quit();
 
 
     }
